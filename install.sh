@@ -526,20 +526,20 @@ exitstatus=$?; if [ $exitstatus = 1 ]; then exit 1; fi
 
 install_basic
 install_DashNTP
-install_MySQLDovecot
-install_Virus
+#install_MySQLDovecot
+#install_Virus
 #install_Apache
-install_NginX
+#install_NginX
 install_PureFTPD
-install_Fail2BanDovecot
-install_Fail2BanRulesDovecot
+#install_Fail2BanDovecot
+#install_Fail2BanRulesDovecot
 install_samba
-install_scaner_and_scanbuttons
-install_ocr
-install_cups
+#install_scaner_and_scanbuttons
+#install_ocr
+#install_cups
 install_btsync
 install_vpn_server
-apt-get -y install tvheadend
+#apt-get -y install tvheadend
 apt-get -y install transmission-cli transmission-common transmission-daemon
 install_ISPConfig
                
